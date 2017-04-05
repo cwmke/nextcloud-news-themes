@@ -12,4 +12,4 @@ Changes should be limited to the custom.css file located in nextcloud/apps/news/
 I make no guarentee that themes will work with the current version of Nextcloud or that it will not break your cloud.
 
 ### Blue and Gray Theme
-![](https://raw.githubusercontent.com/nextcloud-news-themes/images/blue_and_gray.png)
+![Image of Blue and Gray Theme](https://raw.githubusercontent.com/cwmke/nextcloud-news-themes/master/images/blue_and_gray.png)
