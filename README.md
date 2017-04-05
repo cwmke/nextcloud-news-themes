@@ -5,7 +5,7 @@ Changes should be limited to the custom.css file located in nextcloud/apps/news/
 ## Installation 
 1. git clone https://github.com/cwmke/nextcloud-news-themes.git
 2. cd nextcloud-news-themes/themes
-3. sudo cp <theme name>.css /usr/share/webapps/nextcloud/apps/news/css/custom.css
+3. sudo cp THEMENAME.css /usr/share/webapps/nextcloud/apps/news/css/custom.css
 4. sudo chown 644 /usr/share/webapps/nextcloud/apps/news/css/custom.css
 5. Enjoy!
 
