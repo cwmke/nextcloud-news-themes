@@ -13,3 +13,4 @@ I make no guarentee that themes will work with the current version of Nextcloud 
 
 ### Blue and Gray Theme
 ![Image of Blue and Gray Theme](https://raw.githubusercontent.com/cwmke/nextcloud-news-themes/master/images/blue_and_gray.png)
+![Image of Blue and Gray Theme With Open Article](https://raw.githubusercontent.com/cwmke/nextcloud-news-themes/master/images/blue_and_gray_article.png)
