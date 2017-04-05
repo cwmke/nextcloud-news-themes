@@ -1,0 +1,185 @@
+/**
+ * Add your custom styles here
+ * Blue Gray Theme with altered mobile theme for larger font size
+ */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    font-size: 100%;
+    font-family: Noto Sans;
+    vertical-align: baseline;
+    cursor: default;
+}
+
+    #app-content.loading-content {
+        background-color: #6c96bd;
+    }
+
+    #app-content .article {
+        background-color: #6c96bd;
+        font-color: #000000;
+    }
+
+     #app-content .article ul {
+        background-color: #d8d8d8;
+    }
+
+    #app-content .item.active{
+        background-color: #6c96bd;
+        font-color: #000000;
+    }
+
+    #app-content .article li {
+        background-color: #d8d8d8;
+    }
+
+    #app-content .date {
+        color: #2f2f2f;
+    }
+
+    /*After The Last Article Empty Space*/
+    #app-content .finished-auto-paging #articles::after {
+        background-image: linear-gradient(to top, #095498 0%, #6c96bd 100%);
+    }
+
+    /*Article Source 'From' Color*/
+    #app-content .subtitle {
+        background-color: #6c96bd;
+        font-color: #000000;
+        color: #000000;
+    }
+
+    #app-content .author {
+        color: #000000;
+    }
+
+ /*Article Source Color*/
+    #app-content .subtitle a {
+        color: #000000;
+    }
+
+    #app-content .open .article {
+        background-color: #6c96bd;
+    }
+
+    #app-content .utils {
+        background-color: #d8d8d8;
+        font-color: #000000;
+    }
+
+    #app-content .compact .utils {
+        background-color: #d8d8d8;
+        font-color: #000000;
+    }
+
+    #app-content .open .utils {
+        background-color: #d8d8d8;
+        font-color: #000000;
+    }
+
+    #app-content .read .utils .title h1 a {
+        color: #000000;
+    }
+
+    #app-content .body {
+        background-color: #d8d8d8;
+        font-color: #000000;
+    }
+
+/*Navigation Panel*/
+    #app-navigation {
+        background-color: #6c96bd;
+        font-color: #000000;
+    }
+
+    #app-settings-header, #app-settings-content {
+        background-color: #6c96bd;
+        font-color: #000000;
+    }
+
+    #app-navigation .add-new .heading {
+        background-color: #095498;
+        font-color: #000000;
+        font-weight: 600;
+    }
+
+    #app-navigation .add-new:hover, .heading:focus {
+        background-color: #0b8bff;
+        font-color: #000000;
+        font-weight: 900;
+    }
+
+    .settings-button {
+        background-color: #095498;
+        font-color: #000000;
+        font-weight: 600;
+    }
+
+    .settings-button:hover, .settings-button:focus {
+        background-color: #0b8bff;
+        font-color: #000000;
+        font-weight: 900;
+    }
+
+    button {
+        color: #000000;
+        font-weight: unset;
+    }
+
+/*NEW LAYOUT STYLE Bottom Border Under Compacted Articles*/
+    #app-content .item {
+        cursor: default;
+        border-bottom: 2px solid #6c96bd;
+    }
+
+    #app-content .utils .title h1 a {
+    /*text-overflow: ellipsis;*/
+        font-size: 14px;
+        line-height: 1.5;
+        padding-top: 8px;
+    }
+
+    /*MOBILE*/
+    @media (max-width: 750px) {
+    #app-content .article-actions ul {
+        max-width: 164px;
+    }
+
+    /*Mobile Toggle Button*/
+    #app-navigation-toggle {
+        background-color: rgba(11, 90, 162, .7);
+    }
+
+    #app-content .utils .date {
+        display: inline-block;
+        padding: 0 15px;
+        margin-right: 25px;
+    }
+
+    #app-content .heading .date {
+    float: right;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 10px;
+    }
+
+    #app-content .body {
+        font-size: 120%;
+    }
+}
+@media (max-width: 340px) {
+    #app-content .article-actions  {
+        max-width: 82px;
+    }
+}
+
+/*Site Rules*/
+#app-content .custom-slashdot-org .body div > i {
+    display: block;
+    border-left: 1px solid rgb(210,210,210);
+    margin: 25px 0;
+    padding: 0 0 0 15px;
+}
