@@ -9,7 +9,7 @@ Changes should be limited to the custom.css file located in nextcloud/apps/news/
 4. sudo chown 644 /usr/share/webapps/nextcloud/apps/news/css/custom.css
 5. Enjoy!
 
-## I make no guarentee that themes will not break your cloud. They shouldn't but the risk is entirely yours to take.
+### I make no guarentee that themes will not break your cloud. They shouldn't but the risk is entirely yours to take.
 
 ## Theme Previews
 
