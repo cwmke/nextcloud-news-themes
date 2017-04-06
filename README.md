@@ -1,6 +1,6 @@
 # Nextcloud News Themes
 This is a central repository to share custom themes created for the [Nextcloud News](https://github.com/nextcloud/news) webapp. Feel free to make pull requests to add your own. 
-Changes should be limited to the custom.css file located in nextcloud/apps/news/css/custom.css.
+Changes should be limited to the custom.css file located in nextcloud/apps/news/css/custom.css. If not, include clear instructions on how to install and remove your customizations at the top of your theme.css file.
 
 ## Installation 
 1. git clone https://github.com/cwmke/nextcloud-news-themes.git
