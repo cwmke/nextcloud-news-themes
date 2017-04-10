@@ -14,13 +14,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     cursor: default;
 }
 
-    #app-content.loading-content {
-        background-color: #6c96bd;
-    }
-
-    #app-content .article {
+    #app-content {
         background-color: #6c96bd;
         font-color: #000000;
+    }
+
+    #app-content.loading-content {
+        background-color: #6c96bd;
     }
 
      #app-content .article ul {
