@@ -87,6 +87,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     #app-content .body {
         background-color: #d8d8d8;
         font-color: #000000;
+        max-width: 1000px;
     }
 
 /*Navigation Panel*/
