@@ -17,6 +17,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     #app-content {
         background-color: #6c96bd;
         font-color: #000000;
+        color: #000000;
     }
 
     #app-content.loading-content {
